@@ -3,6 +3,6 @@ services:
   php-apache:
     build: .
     ports:
-      - "8091:80"
+      - "8092:80"
     volumes:
       - ./index.php:/var/www/html/index.php
